@@ -1,0 +1,5 @@
+name: NoDrop_By_G2P
+main: ND\Main
+author: G2P
+version: 0.1
+api: [2.0.0]
