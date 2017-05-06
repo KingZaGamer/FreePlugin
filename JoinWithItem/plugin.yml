@@ -1,0 +1,5 @@
+name: G2PjoinWithItem
+main: JWI\Main
+version: 0.1
+author: G2P
+api: [2.0.0]
