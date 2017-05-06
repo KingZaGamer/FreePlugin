@@ -1,0 +1,5 @@
+name: G2PKit
+author: G2P
+version: 0.1
+main: Kit\Mian
+api: 2.0.0
