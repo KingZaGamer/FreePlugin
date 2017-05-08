@@ -2,6 +2,11 @@
 
 namespace SC;
 
+use pocketmine\plugin\PluginBase;
+use pocketmine\event\Listener;
+use pocketmine\command\CommandSender;
+use pocketmine\command\Command;
+
 class Main extends PluginBase implements Listener
 {
   public function onEnable()
