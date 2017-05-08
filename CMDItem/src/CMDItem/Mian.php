@@ -1,6 +1,6 @@
 <?php
 
-namespace Kit;//ระบุตำแหน่งของ plugin ไม่จำเปนต้องมี src
+namespace CMDItem;//ระบุตำแหน่งของ plugin ไม่จำเปนต้องมี src
 
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
