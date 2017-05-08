@@ -1,5 +1,5 @@
-name: G2PKit
+name: G2PCMDitem
 author: G2P
 version: 0.1
-main: Kit\Mian
+main: CMDItem\Mian
 api: 2.0.0
