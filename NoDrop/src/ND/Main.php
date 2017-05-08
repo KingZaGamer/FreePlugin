@@ -11,6 +11,7 @@ class Main extends PluginBase implements Listener
 //เอาไปใช้ก้อย่าเปลี่ยน author เลผมขอ เปลี่ยนชื่อไรห้เปลี่ยนไป
   public function onEnable()
   {
+    $this->getServer()->loadLevel("hub");
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
   
