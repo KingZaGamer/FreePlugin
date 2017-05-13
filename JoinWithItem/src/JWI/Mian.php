@@ -9,9 +9,9 @@ use pocketmine\item\Item;
 
 class Main extends PluginBase implements Listener
 {
-  public functio onEnable
+  public functio onEnable()
   {
-    $this->getServer()->getPluginManager()->registerEvents($this, $this)
+    $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
 
   public function onJoin(PlayerJoinEvent $ev)
