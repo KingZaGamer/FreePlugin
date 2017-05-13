@@ -9,7 +9,7 @@ use pocketmine\item\Item;
 
 class Main extends PluginBase implements Listener
 {
-  public functio onEnable()
+  public function onEnable()
   {
     $this->getServer()->getPluginManager()->registerEvents($this, $this);
   }
