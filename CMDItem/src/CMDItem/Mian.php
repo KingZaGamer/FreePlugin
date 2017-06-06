@@ -19,7 +19,7 @@ class Main extends PluginBase implements Listener//สำคัญ
   //Command กะคือคำสั้ง
   public function onCommand(CommandSender $sender, Command $command, $label, array $args)//เปลี่ยนได้แค่ตรง $sender กับ $command
   {
-    switch($cmd->getName()) {//ให้มันตรวจสอบชื่อ command
+    switch($command->getName()) {//ให้มันตรวจสอบชื่อ command
       case "item":
        if ($sender instanceof Player) {//แทนค่า $sender ด้วย Player
         $sender->getInventory()->addItem(Item::get(276, 0, 1));//ให้ของในตัว
